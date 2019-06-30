@@ -39,7 +39,8 @@ void			menu_click_box(t_sdl *sdl, int x, int y, t_camera *cam)
 {
 	int	surf;
 
-	SDL_GetMouseState(&x, &y);
+	if (sdl->menu)
+		SDL_GetMouseState(&x, &y);
 	if (x >= 388 && x <= 697)
 		if (y >= 592 && y <= 675)
 			sdl->loop = 0;
