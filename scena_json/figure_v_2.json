@@ -1,0 +1,52 @@
+{
+	"Objects" : [ {
+		"type" : "sphere",
+		"position" : [0, 15, 0],
+		"rotation" : [0, 0, 0],
+		"color" : [255, 150, 250],
+		"size" : 10.5,
+		"reflection" : 0.2,
+		"albus" : 0.0
+	},
+	{
+		"type" : "plane",
+		"position" : [0, 0, 0],
+		"rotation" : [0, 0, 0],
+		"color" : [250, 250, 250],
+		"size" : 500,
+		"reflection" : 0.18,
+		"albus" : 0.18
+	}],
+	"Lights" : [ {
+		"type" : "point light",
+		"position" : [10, 40, 5],
+		"color" : [150, 150, 150],
+		"power" : 10
+	},
+	{
+		"type" : "point light",
+		"position" : [15, 40, 20],
+		"color" : [150, 150, 150],
+		"power" : 10
+	},
+	{
+		"type" : "point light",
+		"position" : [0, 40, 20],
+		"color" : [150, 150, 150],
+		"power" : 10
+	},
+	{
+		"type" : "global light",
+		"position" : [0, 0, 0],
+		"color" : [255, 255, 255],
+		"power" : 0.2
+	}],
+	"Camera" : {
+		"position" : [0, 40, 60],
+		"cov" : [-5, 13, 0],
+		"rotation" : [0, 0, 0],
+		"fov" : 60,
+		"bg" : [25, 25, 25],
+		"antialiasing" : 0
+	}
+}

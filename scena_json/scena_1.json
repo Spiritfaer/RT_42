@@ -1,0 +1,139 @@
+{
+	"Objects" : [ {
+		"type" : "plane",
+		"position" : [0, 0, 0],
+		"rotation" : [0, 0, 0],
+		"color" : [150, 50, 50],
+		"size" : 500,
+		"reflection" : 0.01,
+		"albus" : 0.05
+	},
+	  {
+	  "type" : "plane",
+	  "position" : [0, 0, -50],
+	  "rotation" : [90, 0, 90],
+	  "color" : [150, 150, 150],
+	  "size" : 500,
+	  "reflection" : 0.0,
+	  "albus" : 0.36
+	},
+	{
+		"type" : "plane",
+		"position" : [-40, 0, 0],
+		"rotation" : [0, 0, 90],
+		"color" : [150, 150, 150],
+		"size" : 500,
+		"reflection" : 0.0,
+		"albus" : 0.36
+	},
+	{
+		"type" : "plane",
+		"position" : [40, 0, 0],
+		"rotation" : [0, 0, 90],
+		"color" : [150, 150, 150],
+		"size" : 500,
+		"reflection" : 0.0,
+		"albus" : 0.36
+	},
+	{
+	  "type" : "sphere",
+	  "position" : [0, 15, 0],
+	  "rotation" : [0, 0, 0],
+	  "color" : [0, 0, 0],
+	  "size" : 3,
+	  "reflection" : 0.55,
+	  "albus" : 0.55
+	},
+	  {
+		"type" : "sphere",
+		"position" : [-10, 15, 0],
+		"rotation" : [0, 0, 0],
+		"color" : [0, 0, 0],
+		"size" : 3,
+		"reflection" : 0.44,
+		"albus" : 0.44
+	  },
+	  {
+		"type" : "sphere",
+		"position" : [10, 15, 0],
+		"rotation" : [0, 0, 0],
+		"color" : [0, 0, 0],
+		"size" : 3,
+		"reflection" : 0.66,
+		"albus" : 0.66
+	  },
+	  {
+		"type" : "sphere",
+		"position" : [-10, 10, 10],
+		"rotation" : [0, 0, 0],
+		"color" : [0, 0, 0],
+		"size" : 3,
+		"reflection" : 0.77,
+		"albus" : 0.77
+	  },
+	  {
+		"type" : "sphere",
+		"position" : [10, 10, 10],
+		"rotation" : [0, 0, 0],
+		"color" : [0, 0, 0],
+		"size" : 3,
+		"reflection" : 0.99,
+		"albus" : 0.99
+	  },
+	  {
+		"type" : "sphere",
+		"position" : [0, 10, 10],
+		"rotation" : [0, 0, 0],
+		"color" : [0, 0, 0],
+		"size" : 3,
+		"reflection" : 0.88,
+		"albus" : 0.88
+	  },
+	  {
+		"type" : "sphere",
+		"position" : [-10, 20, -10],
+		"rotation" : [0, 0, 0],
+		"color" : [0, 0, 0],
+		"size" : 3,
+		"reflection" : 0.0,
+		"albus" : 0.25
+	  },
+	  {
+		"type" : "sphere",
+		"position" : [10, 20, -10],
+		"rotation" : [0, 0, 0],
+		"color" : [0, 0, 0],
+		"size" : 3,
+		"reflection" : 0.33,
+		"albus" : 0.33
+	  },
+	  {
+		"type" : "sphere",
+		"position" : [0, 20, -10],
+		"rotation" : [0, 0, 0],
+		"color" : [0, 0, 0],
+		"size" : 3,
+		"reflection" : 0.22,
+		"albus" : 0.22
+	  }],
+	"Lights" : [ {
+		"type" : "point light",
+		"position" : [0, 40, 0],
+		"color" : [50, 50, 150],
+		"power" : 50
+	},
+	{
+		"type" : "global light",
+		"position" : [-20, 30, 0],
+		"color" : [250, 250, 250],
+		"power" : 0.1
+	}],
+	"Camera" : {
+		"position" : [0, 20, 40],
+		"cov" : [0, 10, 0],
+		"rotation" : [0, 0, 0],
+		"fov" : 60,
+		"color" : [100, 100, 100],
+		"antialiasing" : 1
+	}
+}

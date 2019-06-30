@@ -1,0 +1,26 @@
+{
+	"Objects" : [ {
+		"type" : "sphere",
+		"position" : [0, 0, 0],
+		"rotation" : [1, 0, 0],
+		"color" : [255, 0, 0],
+		"size" : 12,
+		"reflection" : 0.0,
+		"albus" : 0.18,
+		"image"	: "images/mercury.jpg"
+	}],
+	"Lights" : [ {
+		"type" : "point light",
+		"position" : [15, 6, 27],
+		"color" : [255, 255, 255],
+		"power" : 15
+	}],
+	"Camera" : {
+		"position" : [0, 0, 75],
+		"cov" : [0, 0, 0],
+		"rotation" : [0, 0, 0],
+		"fov" : 60,
+		"color" : [100, 100, 100],
+		"antialiasing" : 1
+	}
+}

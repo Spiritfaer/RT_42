@@ -1,0 +1,37 @@
+{
+	"Objects" : [ {
+		"type" : "cone",
+		"position" : [0, 5, 0],
+		"cup point" : [0, -5, 0],
+		"rotation" : [0, 0, -45],
+		"color" : [255, 117, 20],
+		"size" : 2,
+		"reflection" : 0.05,
+		"albus" : 0
+	}],
+	"Lights" : [ {
+		"type" : "point light",
+		"position" : [5, 15, 0],
+		"color" : [255, 255, 255],
+		"power" : 20
+	},
+	{
+		"type" : "point light",
+		"position" : [-5, -25, 10],
+		"color" : [255, 255, 255],
+		"power" : 20
+	},
+	{
+		"type" : "global light",
+		"position" : [0, 0, 0],
+		"color" : [255, 255, 255],
+		"power" : 0.05
+	}],
+	"Camera" : {
+		"position" : [0, 0, 20],
+		"cov" : [0, 0, 0],
+		"rotation" : [0, 0, 0],
+		"fov" : 45,
+		"color" : [25, 25, 25]
+	}
+}

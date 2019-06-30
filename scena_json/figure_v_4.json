@@ -1,0 +1,87 @@
+{
+	"Objects" : [ {
+		"type" : "cylinder",
+		"position" : [-20, 0, 0],
+		"cup point" : [20, 0, 0],
+		"rotation" : [0, 0, 0],
+		"color" : [255, 0, 0],
+		"size" : 5,
+		"reflection" : 0.05,
+		"albus" : 0.32
+	},
+	{
+		"type" : "cylinder",
+		"position" : [-10, 20, 40],
+		"cup point" : [10, 20, 40],
+		"rotation" : [0, 0, 0],
+		"color" : [255, 0, 0],
+		"size" : 3,
+		"reflection" : 0.05,
+		"albus" : 0.32
+	},
+	{
+		"type" : "sphere",
+		"position" : [0, 0, -15],
+		"cup point" : [10, 20, 40],
+		"rotation" : [0, 0, 0],
+		"color" : [250, 250, 250],
+		"size" : 8.5,
+		"reflection" : 0.99,
+		"albus" : 0.18
+	},
+	{
+		"type" : "cone",
+		"position" : [-10, 5, 0],
+		"cup point" : [-10, 15, -15],
+		"rotation" : [0, 0, 0],
+		"color" : [55, 157, 55],
+		"size" : 5,
+		"reflection" : 0.05,
+		"albus" : 0.05
+	},
+	{
+		"type" : "cone",
+		"position" : [15, 15, -15],
+		"cup point" : [15, 5, 0],
+		"rotation" : [0, 0, 0],
+		"color" : [55, 55, 157],
+		"size" : 5,
+		"reflection" : 0.05,
+		"albus" : 0.05
+	},
+	{
+		"type" : "plane",
+		"position" : [0, 0, 0],
+		"rotation" : [0, 0, 0],
+		"color" : [0, 0, 0],
+		"size" : 500,
+		"reflection" : 0.01,
+		"albus" : 0.05
+	}],
+	"Lights" : [ {
+		"type" : "point light",
+		"position" : [-30, 20, 0],
+		"color" : [255, 255, 50],
+		"power" : 10
+	},
+	{
+		"type" : "point light",
+		"position" : [30, 20, 0],
+		"color" : [255, 255, 50],
+		"power" : 10
+	},
+	{
+		"type" : "global light",
+		"position" : [0, 0, 0],
+		"color" : [255, 255, 255],
+		"power" : 0.1
+	}],
+	"Camera" : {
+		"position" : [0, 40, 40],
+		"cov" : [0, 15, 0],
+		"rotation" : [0, 0, 0],
+		"fov" : 60,
+		"color" : [55, 55, 55],
+		"antialiasing" : 0
+	}
+}
