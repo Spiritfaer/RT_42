@@ -12,7 +12,7 @@
 
 #include "vmth.h"
 
-double			**get_new_m(uint8_t n)
+double_t		**get_new_m(uint8_t n)
 {
 	double_t	**n_m;
 	int32_t		i;

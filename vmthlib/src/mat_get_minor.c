@@ -32,7 +32,7 @@ static void	cpy_step(t_matrix *temp, t_v2i *ii, t_matrix *m, t_v2i *ij)
 	ii->x++;
 }
 
-double		get_minor(t_matrix *m, t_v2i i)
+double_t	get_minor(t_matrix *m, t_v2i i)
 {
 	t_matrix	*temp;
 	double_t	result;

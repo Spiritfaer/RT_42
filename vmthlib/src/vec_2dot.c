@@ -16,7 +16,7 @@
 **	скалярное произведение векторов 2D (dot product or scalar product)
 */
 
-double		vec_2dot(t_v2d v1, t_v2d v2)
+double_t	vec_2dot(t_v2d v1, t_v2d v2)
 {
 	return (v1.x * v2.x + v1.y * v2.y);
 }

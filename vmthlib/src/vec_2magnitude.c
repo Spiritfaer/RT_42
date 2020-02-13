@@ -16,7 +16,7 @@
 **	длинна или модуль(magnitude) вектора (2D)
 */
 
-double	vec_2magnitude(t_v2d v)
+double_t	vec_2magnitude(t_v2d v)
 {
 	return (sqrt(v.x * v.x + v.y * v.y));
 }

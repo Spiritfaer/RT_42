@@ -16,7 +16,7 @@
 **	скалярное произведение векторов 3D (dot product or scalar product)
 */
 
-double		vec_3dot(t_v3d v1, t_v3d v2)
+double_t	vec_3dot(t_v3d v1, t_v3d v2)
 {
 	return (v1.x * v2.x + v1.y * v2.y + v1.z * v2.z);
 }

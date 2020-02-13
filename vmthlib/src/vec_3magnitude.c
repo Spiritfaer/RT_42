@@ -16,7 +16,7 @@
 **	длинна или модуль(magnitude) вектора (3D)
 */
 
-double	vec_3magnitude(t_v3d v)
+double_t	vec_3magnitude(t_v3d v)
 {
 	return (sqrt(v.x * v.x + v.y * v.y + v.z * v.z));
 }

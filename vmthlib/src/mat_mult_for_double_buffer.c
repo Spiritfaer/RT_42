@@ -12,7 +12,7 @@
 
 #include "vmth.h"
 
-double		mult_for_double_buffer(double_t *src, double_t *dst, int32_t size)
+double_t	mult_for_double_buffer(double_t *src, double_t *dst, int32_t size)
 {
 	double_t	sum;
 	int32_t		i;
